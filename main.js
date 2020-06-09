@@ -1,12 +1,21 @@
 /*******************************************************************************
  * Your code here!
- ******************************************************************************/
+//  ******************************************************************************/
 
 
+function convert(num){
+return num * 1.8 + 32
+}
+ let endResult1 = convert(0)
+console.log(endResult)
 
+let endResult2 = convert(100)
+console.log(endResult2)
 
-
-/*******************************************************************************
+let endResult3 = convert(5)
+console.log(endResult3 )
+/***************************
+ * ****************************************************
   The below helper function will return an argument the user used when launching
   the app.
 
