@@ -22,7 +22,7 @@ console.log(endResult2)
 let input3 = 5
 let endResult3 = convert(5)
 console.log(input3)
-console.log('converted fahrenheit is:')
+console.log('converted to fahrenheit is:')
 console.log(endResult3)
 
 /***************************
