@@ -2,28 +2,34 @@
  * Your code here!
 //  ******************************************************************************/
 
+let input = getInput(0)
 
 function convert(num){
 return num * 1.8 + 32
 }
-let input1 = 0
-let endResult1 = convert(0)
-console.log(input1)
-console.log('converted to fahrenheit is:')
-console.log(endResult1)
+
+let sentence = " converted to fahrenheit is:"
+let result = input + " " + sentence + " " + convert(input)
+
+console.log(result)
+// let input = getInput(0)
+
+// let endResult1 = convert(0)
+// console.log(input)
+// console.log('converted to fahrenheit is:')
+// console.log(endResult1)
 
 
-let input2 = 100
-let endResult2 = convert(100)
-console.log(input2)
-console.log('converted to fahrenheit is:')
-console.log(endResult2)
+// let endResult2 = convert(100)
+// console.log(input)
+// console.log('converted to fahrenheit is:')
+// console.log(endResult2)
 
-let input3 = 5
-let endResult3 = convert(5)
-console.log(input3)
-console.log('converted to fahrenheit is:')
-console.log(endResult3)
+
+// let endResult3 = convert(5)
+// console.log(input)
+// console.log('converted to fahrenheit is:')
+// console.log(endResult3)
 
 /***************************
  * ****************************************************
